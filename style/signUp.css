@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+* {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.main-container {
+    /* border: 1px solid black; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+
+
+
+}
+
+.container {
+    width: 35%;
+    /* border: 1px solid black; */
+    padding: 10px;
+
+
+}
+
+.header-box {
+    /* border: 1px solid black; */
+    width: 100%;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+
+}
+
+.header-box>img {
+    width: 100px;
+    height: 60px;
+    /* margin-bottom: 0px; */
+}
+
+.header-box>p {
+    font-size: 23px;
+}
+
+.name {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.complete-name {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.complete-name>input {
+    width: 49%;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+
+.dob{
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+}
+.age-box{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* height: 150px; */
+    display: flex;
+    gap: 10px;
+}
+
+.age-box>select{
+    /* width: 100%; */
+    height: 80px;
+    font-size: 20px;
+    width: 230px;
+    border-radius: 15px;
+    padding: 10px;
+    border-color: grey;   
+}
+
+.gender-box{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+.gender-box>h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.gender-box>select{
+    height: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-color: grey;
+
+}
+select:hover{
+    border: 1px solid black;
+}
+select:focus{
+    outline: none;
+}
+.gender-box>input{
+      height: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: 1px solid grey;
+}
+.gender-box>p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.gender-box>p>a{
+    color: blue;
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+input:hover{
+    border: 1px solid black;
+}
+.submit-btn{
+width: 100%;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: rgb(43, 43, 223);
+    color: white;
+    border: none;
+}
+.submit-btn:hover{
+  color:rgba(247, 244, 244, 0.952);
+}
+.already-btn{
+    width: 100%;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: black;
+    border: none;
+    background-color:rgba(163, 160, 160, 0.158);
+}
+.already-btn:hover{
+    background-color:rgba(163, 160, 160, 0.411);
+}
