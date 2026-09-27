@@ -9,6 +9,7 @@
 }
 body{
     background-color: #F2F4F7;
+    position: relative;
 }
 
 nav {
@@ -17,8 +18,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    width: 100%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
+    position: fixed;
+    z-index: 1000;
 }
 
 .left-nav {
@@ -122,6 +126,8 @@ nav {
 /* hero Section styling */
 .hero-section {
     display: flex;
+    padding-top: 60px;
+    position: relative;
 }
 
 .left-bar {
@@ -129,6 +135,7 @@ nav {
     /* border: 1px solid black; */
     height: 100vh;
     overflow-y: auto;
+    
 
 }
 
@@ -159,20 +166,19 @@ nav {
 
 .feeding {
     flex: 2.5;
-    border: 1px solid black;
-    padding: 10px 90px 10px 90px;
+    /* border: 1px solid black; */
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+
     
 }
 
 .feeding-head {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* border: 1px solid black; */
-    width: 90%;
     padding: 5px;
     border-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -183,7 +189,7 @@ nav {
 
 .feeding-head>input {
     height: 50px;
-    width: 550px;
+    width: 500px;
     border-radius: 40px;
     border: none;
     background-color: #F2F4F7;
@@ -199,8 +205,8 @@ nav {
 }
 
 .feeding-head-btn>button {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: none;
     font-size: 20px;
     background-color: white;
@@ -241,9 +247,8 @@ nav {
 /* post section ki styling */
 .post-section{
     /* border: 1px solid black; */
-    height: 75vh;
-    width: 90%;
-    margin-top: 10px;
+    height: 65vh;
+    margin-top: 13px;
     border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: white;
@@ -293,8 +298,30 @@ nav {
 }
 .post>video{
 width: 100%;
-height: 60vh;
+height: 50vh;
+}
+.footer-icons>button{
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.footer-icons>button>i{
+    font-size: 20px;
+    color: #8F949A
 }
 .right-bar {
     flex: 1;
+    height: 100vh;
+    padding: 10px;
+}
+.right-bar>h3{
+    color: grey;
+}
+.birthday-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.birthday-info>img{
+    width: 40px;
 }
