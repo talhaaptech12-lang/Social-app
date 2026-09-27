@@ -12,7 +12,7 @@
     /* border: 1px solid black; */
     width: 60%;
     display: flex;
-    height: 100vh;
+    /* height: 90vh; */
     padding: 30px;
 }
 .text{
@@ -23,7 +23,7 @@
 
 }
 .text>h1{
-    margin-top:18rem;
+    margin-top:13rem;
     font-size: 5rem;
 }
 .text>h1>span{
@@ -79,11 +79,15 @@
     border-radius: 30px;
     font-size: 20px;
     background-color: rgb(43, 43, 223);
-    color: white;
     border: none;
 }
-.login>button:hover{
+.login>button>a:hover{
   color:rgba(247, 244, 244, 0.952);
+}
+.login>button>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .forgot>button{
